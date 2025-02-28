@@ -1,0 +1,25 @@
+{
+  "name": "sl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run frontend --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "express": "^4.21.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
